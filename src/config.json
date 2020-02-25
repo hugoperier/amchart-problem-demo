@@ -1,0 +1,12 @@
+{
+    "development": {
+      "serverUrl": "http://localhost:25566/"
+    },
+    "testing": {
+        "serverUrl": "https://dev-api.dt-price.com/"
+    },
+    "production": {
+      "serverUrl": "https://api.dt-price.com/"
+    }
+  }
+  
