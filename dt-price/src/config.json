@@ -1,0 +1,12 @@
+{
+    "development": {
+      "serverUrl": "https://dev-api.dt-price.com/"
+    },
+    "testing": {
+        "serverUrl": "https://dev-api.dt-price.com/"
+    },
+    "production": {
+      "serverUrl": "https://api.dt-price.com/"
+    }
+  }
+  

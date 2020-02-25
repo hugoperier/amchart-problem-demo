@@ -1,0 +1,16 @@
+ACCEUIL: 
+    -Redimensionner les cartes de maniere égales
+    -Centrer sur la hauteur la selection de serveur
+    -Sur un click de carte, aller la bonne page
+
+SearchBar:
+    -Quand la liste est ouverte, faire que le hilight de selection soit visible sur tout les élements
+    -Quand on met un item, qu'on l'enleve on peux pas remettre le meme directement
+    -Enlever debug dans la searchbar
+
+
+
+GENERAL (A faire apres les task au dessus)
+    - Tester le site sur chrome 
+    - Rendre responsive ce qui ne l'est pas
+    - Voir comment ameliorer le référencement et la description en bas du site

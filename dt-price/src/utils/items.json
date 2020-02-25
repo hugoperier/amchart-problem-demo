@@ -1,0 +1,98 @@
+[
+    {
+    "identifier": 9975,
+    "name": "item1",
+    "imgUrl": "null",
+    "recipe_id": null
+  },
+  {
+    "identifier": 68,
+    "name": "item2",
+    "imgUrl": "null",
+    "recipe_id": 3
+  },
+  {
+    "identifier": 10728,
+    "name": "item3",
+    "imgUrl": "null",
+    "recipe_id": null
+  },
+  {
+    "identifier": 14882,
+    "name": "item4",
+    "imgUrl": "null",
+    "recipe_id": 4
+  },
+  {
+    "identifier": 246,
+    "name": "item5",
+    "imgUrl": "null",
+    "recipe_id": 5
+  },
+  {
+    "identifier": 1105,
+    "name": "item6",
+    "imgUrl": "null",
+    "recipe_id": 6
+  },
+  {
+    "identifier": 214,
+    "name": "item7",
+    "imgUrl": "null",
+    "recipe_id": 7
+  },
+  {
+    "identifier": 10637,
+    "name": "item8",
+    "imgUrl": "null",
+    "recipe_id": null
+  },
+  {
+    "identifier": 11080,
+    "name": "item9",
+    "imgUrl": "null",
+    "recipe_id": null
+  },
+  {
+    "identifier": 10181,
+    "name": "Anneau solaire",
+    "imgUrl": "null",
+    "recipe_id": null
+  },
+  {
+    "identifier": 8099,
+    "name": "La Hache Menbien",
+    "imgUrl": "null",
+    "recipe_id": 8
+  },
+  {
+    "identifier": 10171,
+    "name": "Mitaines de Chisp",
+    "imgUrl": "null",
+    "recipe_id": null
+  },
+  {
+    "identifier": 895,
+    "name": "Grandes Dagues Sylvestres",
+    "imgUrl": "null",
+    "recipe_id": 9
+  },
+  {
+    "identifier": 296,
+    "name": "Puissante Pelle du craqueleur",
+    "imgUrl": "null",
+    "recipe_id": 10
+  },
+  {
+    "identifier": 295,
+    "name": "Grande Pelle du Craqueleur",
+    "imgUrl": "null",
+    "recipe_id": 11
+  },
+  {
+    "identifier": 1098,
+    "name": "Arc Lourd en Corne de Bouftou",
+    "imgUrl": "null",
+    "recipe_id": 12
+  }
+]
