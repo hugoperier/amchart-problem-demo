@@ -13,7 +13,7 @@ import CancelIcon from '@material-ui/icons/Cancel';
 import SettingsIcon from '@material-ui/icons/Settings';
 import "../optionPanel.css"
 
-class ItemList extends React.Component<IItemListProps, IItemListState> {
+class ItemList extends React.PureComponent<IItemListProps, IItemListState> {
 
     constructor(props: IItemListProps) {
         super(props)
@@ -31,7 +31,6 @@ class ItemList extends React.Component<IItemListProps, IItemListState> {
 
     onItemOptionChanged = (id: number | undefined, type: string, value: boolean) => {
         //switch case type
-        console.log(this.state.itemInSetting)
         const item = this.props.itemList.filter(itm => itm.id === id)[0]
         switch (type) {
             case "mean": {
@@ -92,8 +91,6 @@ class ItemList extends React.Component<IItemListProps, IItemListState> {
         const { classes, itemList } = this.props
         if (itemList.length === 0)
             return (<div></div>)
-
-        console.log(itemList)
 
         return (
             <div className={classes.root}>

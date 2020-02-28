@@ -1,5 +1,6 @@
 import { createStyles, Theme, WithStyles } from "@material-ui/core";
 import { Item } from "../../utils/classes";
+import { Colors } from "../../utils/Colors";
 
 export interface IPricerProps
     extends WithStyles<typeof PricerStyle> {
@@ -12,6 +13,7 @@ export interface IPricerState {
     oneMonthDataOnly: boolean
     unitPriceDisplayed: boolean
     sumPrice: boolean
+    colorPicker: Colors
 }
 
 export const PricerStyle = (theme: Theme) =>

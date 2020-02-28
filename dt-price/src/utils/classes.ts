@@ -3,17 +3,29 @@ export class Item {
     public label: string;
     public imgUrl: string;
     public price?: Price
+    public color: string
     public options: ItemOption
 
-    constructor(id: number, label: string, imgUrl: string) {
+    constructor(id: number, label: string, imgUrl: string, color: string = "#fff") {
         this.id = id;
         this.label = label;
         this.imgUrl = imgUrl;
         this.price = new Price()
         this.options = new ItemOption()
+        this.color = color
+    }
+
+    setColor = (color: string) => {
+        this.color = color
     }
 
     setPrice = (price: any) => {
+        this.price = {
+            unit: [],
+            decade: [],
+            hundred: []
+        }
+
         if (this.price && this.price.unit && this.price.decade && this.price.hundred) {
             for (const row of price) {
                 if (row.unit > 0) {
@@ -67,9 +79,9 @@ export class ItemOption {
         this.min = false;
         this.max = false;
         this.range = {
-            1: true, 
-            10: false, 
-            100: false 
+            1: true,
+            10: false,
+            100: false
         }
     }
 }

@@ -1,6 +1,6 @@
 {
     "development": {
-      "serverUrl": "https://dev-api.dt-price.com/"
+      "serverUrl": "http://localhost:25566/"
     },
     "testing": {
         "serverUrl": "https://dev-api.dt-price.com/"

@@ -12,7 +12,7 @@ import CircularProgress from '@material-ui/core/CircularProgress';
 import { Item } from "../../../utils/classes";
 import items from "../../../utils/items.json"
 
-class SearchBar extends React.Component<ISearchBarProps, ISearchBarState> {
+class SearchBar extends React.PureComponent<ISearchBarProps, ISearchBarState> {
     constructor(props: ISearchBarProps) {
         super(props)
 
@@ -21,7 +21,7 @@ class SearchBar extends React.Component<ISearchBarProps, ISearchBarState> {
         }
     }
 
-    componentDidMount() {
+    async componentDidMount() {
         const response = items
         const itemList = response.map((item: any) => new Item(item.identifier, item.name, item.imgUrl))
 
@@ -59,6 +59,7 @@ class SearchBar extends React.Component<ISearchBarProps, ISearchBarState> {
                     filterOptions={filterOptions}
                     getOptionLabel={(option: any) => ""}
                     onChange={this.onSearchBarSelectItem}
+                    debug
                     renderOption={(option: any) => (
                         <Fragment>
                             {option.imgUrl && (

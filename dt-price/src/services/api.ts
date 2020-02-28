@@ -5,7 +5,6 @@ export const fetcher = (root: string, verb: string) => (url: string, payload: an
     return withConfiguration((config: any) => {
         return fetch(`${config[root]}${url}`, {
             method: verb,
-            mode: "cors",
             headers: new Headers({
                 "Content-Type": "application/json;charset=UTF-8",
                 "Accept-Language": lang,
@@ -28,10 +27,11 @@ export const put = fetcher("serverUrl", "PUT");
 
 
 // Requests
+export const fetchCraftablesItems = () => get(`craft`);
 
 export const getPriceByIdArray = (ids: number[], server: number) => post(`valuearray`, [ids, server]);
 
-export const fetchItems = get("");
+export const fetchItems = () => get("");
 
 export const fetchPrice = (item: number, serverId: number) => get(`value/${serverId}/${item}`);
 
